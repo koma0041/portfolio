@@ -1,4 +1,4 @@
-# Dominoes
+# Color of the Day
 
 ## Objective
-For this project, you will be demonstrating your skills in CSS design and HTML creation with JavaScript, by randomly generating and displaying 50 dominoes on the page.
+Using local storage and the Color of the Day API, create a web application that allows users to search a color by date and manage a record of their searches.
