@@ -1,0 +1,189 @@
+html, body {
+    height: 100%; /* Ensure the page takes up the full height of the viewport */
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make the wrapper span the full height */
+}
+
+.flex-fill {
+    flex: 1; /* Push the footer to the bottom when content is short */
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Card Shadows and Layout */
+.card {
+    border-radius: 10px; /* Rounded corners for a modern look */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Custom Font Sizes */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-width: 2px;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+}
+
+/* Text Colors */
+.text-dark {
+    color: #333333;
+}
+
+.text-primary {
+    color: #3A6351;
+}
+
+.text-secondary {
+    color: #6c757d;
+}
+body {
+    background-color: #f8f9fa; /* Light gray background for better contrast */
+}
+
+.form-control {
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.btn-lg {
+    font-size: 1.2rem;
+}
+
+.shadow {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.card {
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.btn-sm {
+    font-size: 0.875rem;
+    padding: 5px 10px;
+}
+.img-thumbnail {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.img-thumbnail:hover {
+    transform: scale(1.1);
+}
+
+textarea {
+    resize: none;
+}
+.carousel-inner img {
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.img-thumbnail {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.1);
+}
+
+.carousel-inner img {
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.img-thumbnail {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.1);
+}
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-sm {
+    font-size: 0.875rem;
+    padding: 5px 10px;
+}
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-sm {
+    font-size: 0.875rem;
+    padding: 5px 10px;
+}
+
+.alert {
+    border-radius: 5px;
+}
+.alert ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn-lg {
+    font-size: 1.25rem;
+    padding: 10px 20px;
+}
+
+.container h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}

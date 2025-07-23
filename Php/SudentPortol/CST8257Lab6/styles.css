@@ -1,0 +1,236 @@
+/*
+    Created on : Nov 1, 2024, 2:33:06 a.m.
+    Author     : kaush
+*/
+
+/* General styling for body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the main content */
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header navigation styling */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Logo styling in header */
+nav .logo {
+    position: absolute;
+    left: 15px;
+}
+
+nav .logo img {
+    max-width: 50px;
+    height: auto;
+}
+
+/* Center the navigation items */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 14px;
+}
+
+/* Form styling */
+form {
+    width: 100%;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="number"],
+form input[type="email"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Dropdown styling */
+form select {
+    width: auto; /* Adjusts for smaller dropdown */
+    padding: 8px;
+    margin-top: 5px;
+}
+
+/* Button styling */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+.back-button {
+    background-color: #f44336; /* Red for back button */
+}
+
+.next-button {
+    background-color: #007bff; /* Blue for submit or next button */
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Styling for error messages */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Table styling for course listings and registration details */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+td {
+    text-align: center;
+}
+
+/* Styling for selected course checkboxes in tables */
+table input[type="checkbox"] {
+    width: auto;
+    cursor: pointer;
+}
+
+/* Page-specific headings */
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+}
+
+/* Link styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for 'Register' button */
+.register-button {
+    background-color: #28a745; /* Green color for Register button */
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Styling for 'Delete Selected' button */
+.delete-button {
+    background-color: #dc3545; /* Red color for Delete button */
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Additional styling for remaining hours display */
+.remaining-hours {
+    font-weight: bold;
+    color: #555;
+    margin-top: 10px;
+}
